@@ -1,0 +1,63 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: sans-serif
+}
+body{
+    background-color: rgb(1, 0, 0);
+    color: aliceblue;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.list{
+    list-style-type: none;
+}
+.list li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.list li button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.container{
+    margin: 80px 150px;
+
+
+}
+.container h3{
+    font-size: 2rem;
+    font-weight: normal;
+    
+}
+.container input{
+    display: block;
+    border: none;
+    margin-top: 20px; 
+    width :60%;
+    background: none    ;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 1.2rem;
+    outline: none;
+}
+#signup-btn{
+margin-top: 30px;
+padding: 10px 40px;
+font-size: 1.2rem;
+}
+.error-success{
+    
+    margin-top: 30px;
+    display: none;
+
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contest 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="header">Header</div>
+      <div class="buttons">
+        <ul class="list">
+          <li><button id="signup">SignUp</button></li>
+          <li><button id="profile" onclick="myprofile()">Profile</button></li>
+        </ul>
+      </div>
+    </header>
+    <hr style="color: white" />
+    <section class="container">
+      <form action="" id="myform">
+        <h3>SignUp</h3>
+        <input id="name" type="text" placeholder="FullName" /><input
+          id="email"
+          type="email
+      "
+          placeholder="Email"
+        /><input id="password" type="password" placeholder="Password" /><input
+          class="pass"
+          type="password"
+          placeholder="Confirm Password"
+        />
+        <div class="error-success"></div>
+        <button id="signup-btn" type="submit">SignUp</button>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
